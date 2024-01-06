@@ -1,0 +1,49 @@
+body, *{
+    margin: 0;
+    padding: 0;
+}
+
+.form-border{
+    padding: 20px 0px;
+    width: 50%;
+    margin: 50px auto;
+    border: 5px solid orangered;
+
+}
+
+.form-border h2{
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.form-border form{
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+}
+
+.form-border form p{
+    padding: 20px 0px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.form-border form fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-border form fieldset legend{
+    margin-left: 20px;
+    color: brown;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.form-border form fieldset label, input{
+    padding: 0px 20px 20px 20px;
+    margin: 0px 20px;
+}
